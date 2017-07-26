@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4807C741F2837FB00A1E37C /* Basic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Basic.playground; sourceTree = "<group>"; };
 		D48203E11F2593E500C66449 /* MyPlayground3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground3.playground; sourceTree = "<group>"; };
 		D48203E21F259DBE00C66449 /* MyPlayground-Object.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "MyPlayground-Object.playground"; sourceTree = "<group>"; };
 		D48203E31F25C5E600C66449 /* EumAndStruct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EumAndStruct.playground; sourceTree = "<group>"; };
@@ -43,6 +44,7 @@
 		D4CA4B3D1F21EE8A00394204 = {
 			isa = PBXGroup;
 			children = (
+				D4807C741F2837FB00A1E37C /* Basic.playground */,
 				D48203E31F25C5E600C66449 /* EumAndStruct.playground */,
 				D48203E21F259DBE00C66449 /* MyPlayground-Object.playground */,
 				D48203E11F2593E500C66449 /* MyPlayground3.playground */,
