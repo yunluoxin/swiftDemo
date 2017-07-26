@@ -15,6 +15,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D48203E11F2593E500C66449 /* MyPlayground3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground3.playground; sourceTree = "<group>"; };
+		D48203E21F259DBE00C66449 /* MyPlayground-Object.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "MyPlayground-Object.playground"; sourceTree = "<group>"; };
+		D48203E31F25C5E600C66449 /* EumAndStruct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EumAndStruct.playground; sourceTree = "<group>"; };
 		D4CA4B461F21EE8A00394204 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CA4B491F21EE8A00394204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4CA4B4B1F21EE8A00394204 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +43,9 @@
 		D4CA4B3D1F21EE8A00394204 = {
 			isa = PBXGroup;
 			children = (
+				D48203E31F25C5E600C66449 /* EumAndStruct.playground */,
+				D48203E21F259DBE00C66449 /* MyPlayground-Object.playground */,
+				D48203E11F2593E500C66449 /* MyPlayground3.playground */,
 				D4CA4B5C1F21F8C400394204 /* MyPlayground2.playground */,
 				D4CA4B5B1F21EEA300394204 /* MyPlayground.playground */,
 				D4CA4B481F21EE8A00394204 /* SwiftDemo */,
