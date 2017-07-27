@@ -147,4 +147,82 @@ if arr.isEmpty {
     print("arr is empty")
 }
 
+arr = ["a", "b", "c", "d"]
+var arra = arr.sorted { (a, b) -> Bool in
+    a > b
+}
 
+arra = arr.sorted(by: { a, b in a > b})
+print(arra)
+
+arra = arr.sorted(by: {$0 > $1})
+print(arra)
+
+var ar = arra.map { (a) -> String in
+    return a + "k"
+}
+print(ar)
+
+
+var listA = [1,2,3,4]
+var listB = listA
+listA == listB
+listA.remove(at: 0)
+listA
+listB
+listB.remove(at: 2)
+listA
+listB
+
+listA == listB
+listA = [1,2,4]
+listB == listA
+
+var t1 = Test()
+var t2 = Test()
+var t3 = Test()
+var la = [t1,t2,t3]
+var lb = [t1,t2,t3]
+
+if la.elementsEqual(lb, by: { (t1, t2) -> Bool in
+    return true
+}) {
+    print("ddd")
+}
+
+struct StructA{
+    var a = "a"
+    mutating func changeConstantValue() -> () {
+        self.a = "b"
+    }
+    mutating func justPrint(){
+        print("just print")
+    }
+}
+let structA = StructA()
+structA.a
+//structA.changeConstantValue()
+//structA.a
+//structA.justPrint()   // 也无法调用，所以不一定要方法中有真实改变的！let修饰的值类型，也就是常量，所有属性都变成不可变的，不能调用mutate方法
+
+
+struct B {
+    var multiplier:Int
+    
+    subscript(index:Int) -> Int {
+        get {
+            return index * multiplier ;
+        }
+
+        set {
+            multiplier = newValue
+        }
+    }
+}
+
+var structB = B(multiplier: 3)
+structB[22]
+
+structB[2] = 4
+structB[10]
+structB.multiplier
